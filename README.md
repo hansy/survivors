@@ -3,8 +3,8 @@
 Lightweight co-op Survivors-style slice with Phaser 3 in the browser and a tiny Socket.IO server. Gameplay knobs live in commented config files so non-technical teammates can tune balance without touching engine code.
 
 ## How to run
-1. Install deps (root): `npm install`
-2. Start both client (Vite) and server: `npm run dev`
+1. Install deps (root): `bun install`
+2. Start both client (Vite) and server: `bun run dev`
    - Client dev server: http://localhost:5173
    - Game server: http://localhost:3000
 3. In the browser, create a room or join an existing room code. Open the page in multiple tabs to test co-op.

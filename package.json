@@ -5,7 +5,7 @@
   "scripts": {
     "dev:client": "vite --config client/vite.config.ts",
     "dev:server": "ts-node server/src/server.ts",
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev": "concurrently \"bun run dev:server\" \"bun run dev:client\"",
     "build:client": "vite build --config client/vite.config.ts"
   },
   "dependencies": {
