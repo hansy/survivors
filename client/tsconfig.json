@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@entities/*": ["src/entities/*"],
+      "@systems/*": ["src/systems/*"],
+      "@scenes/*": ["src/scenes/*"],
+      "@net/*": ["src/net/*"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*"]
+}
